@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 16px 0px;
+  padding-bottom: 8px;
+  border-bottom: solid 2px rgb(208, 208, 208);
+}
+
+#agregarTarea {
+  background-color: blueviolet;
+  color: white;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 6px;
+}
+
+.tachado {
+  text-decoration: line-through;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-tareas {
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  background-color: rgb(169, 226, 226);
+  gap: 70px;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.titulo-tareas {
+  display: flex;
+  gap: 8px;
+  margin-left: 40px;
+  font-weight: 600;
+}
+
+.contadores {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 6px;
+  font-weight: 600;
+}
